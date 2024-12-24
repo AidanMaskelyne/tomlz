@@ -1,0 +1,21 @@
+.{
+    .name = "tomlz",
+
+    // The supported TOML version (v1.1.0)
+    .version = "1.0.0",
+
+    .dependencies = .{},
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "tests",
+        "LICENCE",
+        "README.md",
+        "flake.lock",
+        "flake.nix",
+        "gyro.zzz",
+        "toml.dict",
+    }
+}
